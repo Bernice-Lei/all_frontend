@@ -35,7 +35,7 @@ setOptions(
     legend: {
       //@ts-expect-error
       right: true,
-      data: ["watchers", "fork", "star"]
+      data: ["25Ton", "80Ton", "125Ton"]
     },
     xAxis: [
       {
@@ -48,7 +48,7 @@ setOptions(
           // width: "70",
           // overflow: "truncate"
         },
-        data: ["2021", "2022", "2023"],
+        data: ["今天", "明天", "后天"],
         triggerEvent: true
       }
     ],
@@ -60,7 +60,7 @@ setOptions(
     ],
     series: [
       {
-        name: "watchers",
+        name: "25Ton",
         type: "bar",
         barWidth: "15%",
         itemStyle: {
@@ -75,10 +75,10 @@ setOptions(
             }
           ])
         },
-        data: [200, 320, 800]
+        data: [21, 28, 19]
       },
       {
-        name: "fork",
+        name: "80Ton",
         type: "bar",
         barWidth: "15%",
         itemStyle: {
@@ -93,10 +93,10 @@ setOptions(
             }
           ])
         },
-        data: [1600, 2460, 4500]
+        data: [11, 16, 14]
       },
       {
-        name: "star",
+        name: "125Ton",
         type: "bar",
         barWidth: "15%",
         itemStyle: {
@@ -111,7 +111,7 @@ setOptions(
             }
           ])
         },
-        data: [1450, 3620, 7500]
+        data: [14, 20, 17]
       }
     ],
     addTooltip: true

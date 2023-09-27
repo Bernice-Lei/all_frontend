@@ -31,16 +31,16 @@ setOptions(
     },
     series: [
       {
-        name: "Github信息",
+        name: "试模完成率",
         type: "pie",
         top: "20%",
         radius: "80%",
         center: ["40%", "50%"],
         color: ["#e6a23c", "#f56c6c", "#53a7ff"],
         data: [
-          { value: 400, name: "watchers" },
-          { value: 1600, name: "forks" },
-          { value: 7200, name: "star" }
+          { value: 400, name: "调试" },
+          { value: 1600, name: "异常" },
+          { value: 7200, name: "正常" }
         ]
         // emphasis: {
         //   itemStyle: {
