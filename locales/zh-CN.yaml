@@ -110,6 +110,7 @@ menus:
   hsTree: 大数据树业务组件
   hsMenuoverflow: 目录超出显示 Tooltip 文字提示
   hsChildMenuoverflow: 菜单超出显示 Tooltip 文字提示
+  hsWItable: WI表生成
 status:
   hsLoad: 加载中...
 login:

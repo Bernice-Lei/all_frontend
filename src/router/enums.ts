@@ -1,7 +1,7 @@
 // 完整版菜单比较多，将 rank 抽离出来，在此方便维护
 
 const home = 0, // 平台规定只有 home 路由的 rank 才能为 0 ，所以后端在返回 rank 的时候需要从 1 开始哦
-  doc = 1,
+  witable = 1,
   utils = 2,
   table = 3,
   components = 4,
@@ -20,11 +20,12 @@ const home = 0, // 平台规定只有 home 路由的 rank 才能为 0 ，所以�
   editor = 17,
   guide = 18,
   menuoverflow = 19,
-  about = 20;
+  about = 20,
+  doc = 21;
 
 export {
   home,
-  doc,
+  witable,
   utils,
   table,
   components,
@@ -43,5 +44,6 @@ export {
   editor,
   guide,
   menuoverflow,
-  about
+  about,
+  doc
 };
